@@ -5,8 +5,9 @@
     <title>Borgo Egnazia</title>
 
     <link href="CssStyle.css?ts=<?=time()?>&quot" rel="stylesheet" type="text/css" />
+    <script src="JavaScript.js"></script>
 </head>
-<body>
+<body onload="demoOnLoad()">
     <div class="container">
         <header>
             <div id="header">
@@ -39,6 +40,24 @@
             <br />
             <i>Since 2010 Borgo Egnazia has been part of Leading Hotel of the World and it has received prestigious accolades such as “Best Hotel of the Year” by Virtuoso in 2016 and “Most Life Changing Experience”.</i>
         </p>
+
+        <button class="btnOpen" onclick="openForm()">LogIn</button>
+
+        <div class="formPopUp" id="Form">
+            <form class="formContainer">             
+
+                <label for="Username:"><b>Username:</b></label>
+                <input type="text" placeholder="Enter username" name="username" required>
+
+                <label for="psw"><b>Password:</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button type="submit" class="btn">Login</button>
+                <button type="button" class="btnCancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+
+
 
         <footer>
             <div>

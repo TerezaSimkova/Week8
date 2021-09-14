@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="JavaScript.js"></script>
+    <link href="javascriptDemo.css" rel="stylesheet" />
+</head>
+<body onload="demoOnLoad()">
+    <button onclick="demoOnClick()">Cliccami!</button>
+
+    <div id="bgChange" onmouseover="this.style.backgroundColor ='magenta'" onmouseout="this.style.backgroundColor = 'green'">Ciao</div>
+
+    <input type="text" onkeydown="onkeydownDemo()"/>
+
+    <p>Seleziona ruolo:</p>
+    <select onchange="demoOnChange()" >
+        <option value="">Seleziona un ruolo</option>
+        <option value="manager">Manager</option>
+        <option value="developer">Developer</option>
+    </select>
+
+    <!--Selettori-->
+
+    <label><input id="avaible" type="checkbox" onchange="checkSelection()"/></label>
+
+    <label>Username:</label>
+    <input class="username" type="text" onchange="changeButton()"/> <!--cambiare il metodo-->
+    <input id="submit" type="submit" name="name" value="Salva" />
+    <br />
+    <input id="submit2" type="submit" disabled name="name" value="Salva" />
+</body>
+</html>
