@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Borgo Egnazia</title>
+    <link href="CssStyle.css?ts=<?=time()?>&quot" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img id="logoBorgo" width="250" src="https://yt3.ggpht.com/ytc/AKedOLT7aQtmSpg4biZZaPDofm5yq3a1eOg6AKmXKHSizQ=s900-c-k-c0x00ffffff-no-rj" />
+            <hr />
+            <nav>
+                <ul>
+                    <li><a href="Homepage.html">Home</a></li>
+                    <li><a href="CameraHotel.html">Le nostre camere</a></li>
+                    <li><a href="ContattiHotel.html">Contatti</a></li>
+                    <li><a href="PrenotaHotel.html" class="current">Prenota</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr />
+        <form>
+            <img class="imgForm"  src="https://static.imperatore.it/gallery/Property/FASBORVILLE/01_borgo_egnazia_savelletri_di_fasano.jpg" />
+            <fieldset class="fieldset">
+                <legend class="legend">Prenota una stanza al Borgo Egnazia:</legend>
+                <p>
+                    <label> Nome e Cognome: </label>
+                    <input type="text" name="name" value="" required pattern="[a-zA-Z]" placeholder="Inserisci il nome e cognome..." /><br />
+                </p>
+                <p>
+                    <label> E-mail: </label>
+                    <input type="email" name="email" value="" required pattern="[A-Za-z]" placeholder="Inserisci l'indirizzo e-mail'..." /><br />
+                </p>
+                <p>
+                    <label> Numero di telefono: </label>
+                    <input type="tel" name="tell" value="" required pattern="[A-Za-z0-9]" placeholder="+ 39..." /><br />
+                </p>
+                <p>
+                    <label> Data di check-in e check-out: </label>
+                    <input type="date" name="dataCheckIn" value="" placeholder="Check-in" /><br />
+                    <input type="date" name="dataCheckOut" value="" placeholder="Check-out" /><br />
+                </p>
+                <p>
+                    <input class="button" type="submit" name="btn" value="Submit" />
+                </p>
+                <br />
+            </fieldset>
+        </form>
+        <footer>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="https://www.facebook.com/"><img width="20" src="https://i.ebayimg.com/images/g/A0QAAOSw8lte8H6S/s-l300.jpg" /></a>Borgo_Egnazia</li>
+                        <li><a href="https://www.instagram.com/"><img img width="20" src="https://1000marche.net/wp-content/uploads/2020/03/logo-Instagram.jpg" /></a>Borgo_Egnazia</li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Borgo Egnazia</title>
+    <link href="CssStyle.css?ts=<?=time()?>&quot" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img id="logoBorgo" width="250" src="https://yt3.ggpht.com/ytc/AKedOLT7aQtmSpg4biZZaPDofm5yq3a1eOg6AKmXKHSizQ=s900-c-k-c0x00ffffff-no-rj" />
+            <hr />
+            <nav>
+                <ul>
+                    <li><a href="Homepage.html">Home</a></li>
+                    <li><a href="CameraHotel.html" class="current">Le nostre camere</a></li>
+                    <li><a href="ContattiHotel.html">Contatti</a></li>
+                    <li><a href="PrenotaHotel.html">Prenota</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr />
+
+        <p id="table">Le stanze diponibili:</p>
+        <table id="tabella">
+            <thead>
+                <tr><th>Nome della stanza</th><th>Numero posti letto</th><th>Foto</th><th>Prezzo per notte</th><th>Prenota</th></tr>
+            </thead>
+            <tbody>
+                <tr class="middle">
+                    <td>Stanza Angel N-12</td>
+                    <td style="padding-left:50px">2 - 3</td>
+                    <td><img width="220" src="https://static.charmingsardinia.com/hotels/120/gallery/files/borgo-egnazia48.jpg" /></td>
+                    <td id="tbPrezzo">120 €</td>
+                    <td><input type="submit" name="Prenota" value="Prenotare!" style=" cursor: pointer;" /></td>
+                </tr>
+                <tr class="middle">
+                    <td>Stanza Moon N-6</td>
+                    <td style="padding-left:50px">2</td>
+                    <td><img width="220" src="https://static-new.lhw.com/HotelImages/Final/LW2174/lw2174_52109523_720x450.jpg" /></td>
+                    <td id="tbPrezzo">220 €</td>
+                    <td><input type="submit" name="Prenota" value="Prenotare!" style=" cursor: pointer;" /></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <footer>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="https://www.facebook.com/"><img width="20" src="https://i.ebayimg.com/images/g/A0QAAOSw8lte8H6S/s-l300.jpg" /></a>Borgo_Egnazia</li>
+                        <li><a href="https://www.instagram.com/"><img img width="20" src="https://1000marche.net/wp-content/uploads/2020/03/logo-Instagram.jpg" /></a>Borgo_Egnazia</li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

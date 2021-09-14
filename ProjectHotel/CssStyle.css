@@ -1,0 +1,200 @@
+﻿body {
+    width: 940px;
+    display: flex;
+    flex-direction: row;
+}
+.container {
+    flex-wrap: wrap;
+    margin: 0px 50px 0px 50px;
+}
+nav{
+    width:940px;
+}
+#image {
+    width: 940px;
+}
+h1{
+    font-family:  'Times New Roman', Times, serif;
+    float: right;
+    padding-right: 450px;
+    padding-top: 70px;
+    font-weight: 200;
+    font-size: 50px;
+    color:gray;
+}
+#header{
+    height: 320px;
+    width:auto;
+}
+#logoBorgo{
+    padding: 10px 20px 10px 380px;
+
+}
+input [value=Submit] {
+    padding: 5px 15px;
+    background: #ccc;
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+#hotel{
+    width: 940px;
+}
+nav ul{
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+}
+nav li{
+    display: inline;
+    margin-right: 40px;
+}
+a {
+    text-decoration: none;
+}
+input[type=submit] {
+    padding: 5px 15px;
+    background: #ccc;
+    color:white;
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+tr.middle{
+    background-color:#e2e2e2
+}
+#tbPrezzo{
+    padding-left:30px;
+}
+#contactUp{
+    display:inline-flex;
+    margin: 10px 20px 0px 10px;
+}
+#contactField {
+    display: inline;
+}
+.imgForm {
+    padding: 40px 0px 0px 20px;
+    width: 400px;
+    float: right;
+}
+#table {
+    padding-top: 20px;
+    font-size: 22px;
+    text-decoration-line: underline;
+    margin-left: 120px;
+}
+#tabella {
+    margin-left: 120px;
+}
+.legend{
+    font-size: 22px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:gray;
+}
+.fieldset{
+    border-radius:5px;
+    border:1px solid #cecece;
+    line-height:1.6em;
+    float:left;
+    margin-left: 0px;
+    padding-left: 30px;
+}
+
+.fieldset1 {
+    border-radius: 5px;
+    border: 1px solid #cecece;
+    line-height: 1.6em;
+    float: left;
+    padding-left: 50px;
+    padding-right:30px;
+    height: 450px;
+    margin-top: 30px;
+}
+.formRegister{
+    font-size:18px;
+    font-family:  Arial;
+}
+input[type="text"]{
+    width:210px;
+    border:1px solid #9a9a9a;
+    padding:2px;
+    border-radius: 4px;
+    margin-left:120px;
+}
+input[name="NC"] {
+    width: 210px;
+    border: 1px solid #9a9a9a;
+    padding: 2px;
+    border-radius: 4px;
+    margin-left: 40px;
+}
+input[name="celullare"] {
+    width: 210px;
+    border: 1px solid #9a9a9a;
+    padding: 2px;
+    border-radius: 4px;
+    margin-left: 25px;
+}
+input[name="data"] {
+    width: 210px;
+    border: 1px solid #9a9a9a;
+    padding: 2px;
+    border-radius: 4px;
+    margin-left: 16px;
+}
+input[name="mail2"] {
+    width: 210px;
+    border: 1px solid #9a9a9a;
+    padding: 2px;
+    border-radius: 4px;
+    margin-left: 58px;
+}
+input[name="mail"] {
+    width: 210px;
+    border: 1px solid #9a9a9a;
+    padding: 2px;
+    border-radius: 4px;
+    margin-left: 90px;
+}
+input[type="email"] {
+    width: 210px;
+    border: 1px solid #9a9a9a;
+    padding: 2px;
+    border-radius: 4px;
+    margin-left: 190px;
+}
+input[type="tel"] {
+    width: 210px;
+    border: 1px solid #9a9a9a;
+    padding: 2px;
+    border-radius: 4px;
+    margin-left: 110px;
+}
+input[type="date"] {
+    width: 210px;
+    border: 1px solid #9a9a9a;
+    padding: 2px;
+    border-radius: 4px;
+    margin-left: 248px;
+}
+
+.current {
+    color: darkgray;
+}
+footer{
+    margin-top:600px;
+    height:80px;
+}
+#stanza{
+    float:left;
+    margin-right: 12px;
+}
+
+.fieldset{
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+}

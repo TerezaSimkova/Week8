@@ -1,0 +1,19 @@
+﻿body {
+    background-color:aqua;
+}
+
+h1{
+    display:inline;
+}
+#logo + h1{
+    display:inline;
+}
+h2{
+    display:none; /*nonoccupa spazio*/
+}
+h3{
+    visibility:hidden;/*occupa spazio*/
+}
+#logo1{
+    float:left;
+}
