@@ -1,0 +1,89 @@
+﻿body {
+    margin:  20px 50px 10px 50px;
+    font-family: Calibri;
+    width: 940px;
+}
+.header {
+    margin: 0px 0px 50px 00px;
+  /*  padding-left: 390px;*/
+}
+.perche{
+    font-size:250%;
+
+}
+h1{
+    font-family:  Calibri;
+    text-align:center;
+    background-color: #fff8ce;
+    padding: 20px 0 10px 0;
+}
+.footerImg{
+    align-self: center;
+}
+.navigazione {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffd800;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.navigazione a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+.navigazione a:hover{
+    color: #ff0000;
+    background-color: #fff5a5;
+}
+
+.footerIcon{
+    padding-left: 360px;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
+.inizio{
+/*    float:left;*/
+}
+.imagine{
+    width: 520px;
+    float: right;
+    padding-left:30px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 940px;
+    height: 60px; 
+    background: #ffac00;
+}
+table {
+    height: 50px;
+    text-align: center;
+    margin: 10px 90px 10px 90px;
+}
+tr:hover {
+    background-color:#fff8ce;
+}
+table th, tr {
+    height: 90px;
+}
+
+p #table{
+    font-weight:300;
+}
