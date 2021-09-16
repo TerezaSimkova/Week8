@@ -30,9 +30,15 @@ function calcBill() {
     }
     console.log(bill);
     console.log(priceData);
-    let pageMenu = document.getElementById("changePage");
-    pageMenu.setAttribute("href", "Menu.html");
+    //let pageMenu = document.getElementById("changePage");
+    //pageMenu.setAttribute("href", "Menu.html");
+  
  
+}
+function redirecion() {
+    localStorage.clear();
+    alert("Verrai riportato al Menu");
+    setTimeout(function () { window.location.href = "Menu.html"; });
 }
 function showCardInput() {
     let cardInput = document.getElementById("codiceCarta");
