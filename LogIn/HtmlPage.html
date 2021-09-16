@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="JavaScript.js"></script>
+    <title></title>
+</head>
+<body onload="CheckedLogUser()">
+    <form id="loginForm" onsubmit="save(); hideForm(); ">
+
+        <label>Username:</label>
+        <input type="text" id="username" onchange="change()" required />
+        <br />
+        <label>Password:</label>
+        <input type="password" id="password" onchange="change()" required />
+        <br />
+        <input type="submit" value="Login" disabled />
+        <br />
+        <button id="logOutButton" type="button" style="display:none" onclick="logOut()">Logout</button>  <!--style display none nasconde il button-->
+    </form>
+
+</body>
+</html>

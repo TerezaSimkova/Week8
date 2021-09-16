@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="CSS.css" rel="stylesheet" />
+    <script src="Pizza JavaScript.js"></script>
+    <title>Pizzeria Berbere</title>
+</head>
+<body onload="showBill()">
+    <header class="header">
+        <img src="https://www.berberepizza.it/wp-content/uploads/2020/06/LOGO_NERO_FONDO_BIANCO.jpg" alt="Alternate Text" />
+        <hr style="color: darkorange" />
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img width="50" src="https://cdn3.iconfinder.com/data/icons/food-and-restaurant-6/64/food_and_drink-26-512.png" alt="Alternate Text" /></span>
+
+    </header>
+    <nav id="navigazione" class="navigazione">
+        <a href="HomePage.html">Home</a>
+        <a href="Menu.html">Menu</a>
+        <a href="Contatti.html">Contatti</a>
+        <br />
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+    </nav>
+    <span onclick="openNav()"></span>
+   <p class="billFrase" id="bill"></p>
+    <div id="form">
+        <form class="form">
+
+            <label for="Username:"><b>Username:</b></label>
+            <input type="text" placeholder="Enter username" name="username" required>
+            <br /> <br />
+            <label for="psw"><b>Password:</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <br /> <br />
+            <label>Indirizzo</label>
+            <input type="text" required />
+            <br /> <br />
+            <label>Numero di telefono</label>
+            <input type="tel" required />
+            <br /> <br />
+            <label> <input type="radio" value="1" name="metodoPagamento" onchange="showCardInput()" /> Contanti </label>
+            <br /> <br />
+            <label> <input type="radio" value="2" name="metodoPagamento" onchange="showCardInput()" /> Carta </label>
+            <br /> <br />
+            <div id="codiceCarta" style="display:none">
+                <label>Codice carta</label>
+                <input type="text" />
+            </div>
+            <br /> <br />
+                   <a id="changePage" href="Menu.html">
+                       <input type="button"  value="Invia ordine" /> <!--deve essere type: button per reindirizzarsi sull altra pagina-->
+                   </a>
+        </form>
+        <div>
+            <footer class="footer">
+                <p class="footerIcon">&#169; Berbere, Milano 20 141, Via Nera</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

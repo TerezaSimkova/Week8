@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Pizzeria da Mimmo</title>
+    <title>Pizzeria Berbere</title>
     <script src="Pizza JavaScript.js"></script>
     <link href="CSS.css" rel="stylesheet" />
 </head>
@@ -20,7 +20,34 @@
         <br />
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
     </nav>
-
+    <fieldset id="container">
+        <legend>Contact Us!</legend>
+        <div id="contactUp">
+            <p><b>E-mail: </b> borgo.egnazia@borgo.com</p>
+        </div>
+        <div id="contactUp">
+            <p><b>Numero cell.: </b> +39 3658 25698 7895</p>
+        </div>
+        <p style="text-decoration: underline; font-size: 22px">Oppure scrivici qui:</p>
+        <div class="container">
+            <p>
+                <label>Nome e cognome</label>
+                <input type="text" name="NC" value="" /><br />
+            </p>
+            <p>
+                <label> Numero di cellulare</label>
+                <input type="text" name="celullare" value="" /><br />
+            </p>
+            <p>
+                <label>E-mail address</label>
+                <input type="text" name="mail2" value="" /><br />
+            </p>
+            <br />
+            <textarea style="width: 900px; height: 80px"></textarea>
+            <br />
+        </div>
+        <input type="submit" name="Invia" value="Invia" />
+    </fieldset>
     <span onclick="openNav()"></span>
     <div>
         <footer class="footer">

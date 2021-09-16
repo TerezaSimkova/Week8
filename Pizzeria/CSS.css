@@ -2,24 +2,108 @@
     margin:  20px 50px 10px 50px;
     font-family: Calibri;
     width: 940px;
+     height: 100vh;
 }
+@media screen and (max-width: 600px) {
+    .imagine{
+        visibility:hidden;
+    }
+}
+/* Media Queries: Tablet Landscape */
+/*@media screen and (max-width: 1060px) {
+    #primary {
+        width: 67%;
+    }
+}*/
+
+/* Media Queries: Tabled Portrait */
+/*@media screen and (max-width: 768px) {
+    #primary {
+        width: 100%;
+    }
+}*/
+/*Responsive image*/
+/*@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}*/
 .header {
     margin: 0px 0px 50px 00px;
-  /*  padding-left: 390px;*/
+    /*  padding-left: 390px;*/
 }
 .perche{
     font-size:250%;
 
 }
-h1{
-    font-family:  Calibri;
+.billFrase{
     text-align:center;
+    background-color: olivedrab;
+    padding: 30px 0px 30px 0;
+    color: white;
+}
+h1 {
+    font-family: Calibri;
+    text-align: center;
     background-color: #fff8ce;
     padding: 20px 0 10px 0;
 }
-.footerImg{
-    align-self: center;
+.formPopUp {
+    display: none;
+    padding: 10px 25px 10px 25px;
+    bottom: 80px;
+    right: 0px;
+    width: 220px;
+    position: sticky;
+    background-color:#8b0707;
+
 }
+.form{
+    padding:0px 400px 0px 380px;
+}
+#fildsetFormP{
+    width: 200px;
+}
+input[type="button"] {
+    float: left;
+    width: 120px;
+    right: 23px;
+    bottom: 25px;
+    background-color: #8b0707;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 16px 20px;
+}
+.button {
+    width: 120px;
+    right: 23px;
+    bottom: 25px;
+    background-color: #8b0707;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 16px 20px;
+    float: right;
+}
+.btnOpen {
+    width: 120px;
+    right: 23px;
+    bottom: 25px;
+    background-color: #8b0707;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 16px 20px;
+    float:right;
+}
+
 .navigazione {
     height: 100%;
     width: 0px;
@@ -66,8 +150,9 @@ h1{
     padding-left:30px;
 }
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
+    margin-top: 100px;
     width: 940px;
     height: 60px; 
     background: #ffac00;
@@ -86,4 +171,25 @@ table th, tr {
 
 p #table{
     font-weight:300;
+}
+.container {
+    width: 900px;
+    clear: both;
+    margin-bottom: 0px;
+
+}
+
+    .container input {
+        width: 100%;
+        clear: both;
+    }
+
+input[type="submit"] {
+    padding: 13px 40px 13px 40px;
+    border-radius: 3px;
+    float: right;
+    background-color: #8b0707;
+    color: white;
+    border: none;
+    cursor: pointer;
 }

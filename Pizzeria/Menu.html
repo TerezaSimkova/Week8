@@ -2,11 +2,11 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Pizzeria da Mimmo</title>
+    <title>Pizzeria Berbere</title>
     <script src="Pizza JavaScript.js"></script>
     <link href="CSS.css" rel="stylesheet" />
 </head>
-<body>
+<body id="menuLink">
     <header class="header">
         <img src="https://www.berberepizza.it/wp-content/uploads/2020/06/LOGO_NERO_FONDO_BIANCO.jpg" alt="Alternate Text" />
         <hr style="color: darkorange" />
@@ -49,6 +49,9 @@
             </tr>
         </tbody>
     </table>
+    <a href="FormPagamento.html">
+        <input onclick="calcBill();" type="button" class="button" name="button" value="Checkout" />
+    </a>
     <div>
         <footer class="footer">
             <p class="footerIcon">&#169; Berbere, Milano 20 141, Via Nera</p>
